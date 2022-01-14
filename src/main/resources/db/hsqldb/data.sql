@@ -25,6 +25,15 @@ INSERT INTO vet_specialties VALUES (3, 3);
 INSERT INTO vet_specialties VALUES (4, 2);
 INSERT INTO vet_specialties VALUES (5, 1);
 
+
+INSERT INTO productTypes(id,name) VALUES (1,'Accessories')
+INSERT INTO productTypes(id,name) VALUES (2,'Food')
+
+INSERT INTO products(id,name,price,product_type_id) VALUES (1,'Wonderful dog necklace',17.25,1)
+INSERT INTO products(id,name,price,product_type_id) VALUES (2,'Super Kitty Cookies', 50.0,2)
+
+
+
 INSERT INTO types VALUES (1, 'cat');
 INSERT INTO types VALUES (2, 'dog');
 INSERT INTO types VALUES (3, 'lizard');
